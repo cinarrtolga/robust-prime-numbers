@@ -1,0 +1,15 @@
+c:\users\13sch\documents\visual studio 2015\Projects\RPN\RPN\bin\Debug\RPN.exe.config
+C:\Users\13sch\documents\visual studio 2015\Projects\RPN\RPN\bin\Debug\RPN.exe
+C:\Users\13sch\documents\visual studio 2015\Projects\RPN\RPN\bin\Debug\RPN.pdb
+C:\Users\13sch\documents\visual studio 2015\Projects\RPN\RPN\obj\Debug\RPN.csprojResolveAssemblyReference.cache
+C:\Users\13sch\documents\visual studio 2015\Projects\RPN\RPN\obj\Debug\RPN.exe
+C:\Users\13sch\documents\visual studio 2015\Projects\RPN\RPN\obj\Debug\RPN.pdb
+C:\Users\13sch\Desktop\RPN\RPN\RPN\bin\Debug\RPN.exe.config
+C:\Users\13sch\Desktop\RPN\RPN\RPN\obj\Debug\RPN.exe
+C:\Users\13sch\Desktop\RPN\RPN\RPN\obj\Debug\RPN.pdb
+C:\Users\13sch\Desktop\test\RPN\RPN\bin\Debug\RPN.exe.config
+C:\Users\13sch\Desktop\test\RPN\RPN\obj\Debug\RPN.exe
+C:\Users\13sch\Desktop\test\RPN\RPN\obj\Debug\RPN.pdb
+C:\Users\13sch\Desktop\test\RPN\RPN\bin\Debug\RPN.exe
+C:\Users\13sch\Desktop\test\RPN\RPN\bin\Debug\RPN.pdb
+C:\Users\13sch\Desktop\test\RPN\RPN\obj\Debug\RPN.csprojResolveAssemblyReference.cache
