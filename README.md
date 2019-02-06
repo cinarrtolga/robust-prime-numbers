@@ -1,4 +1,5 @@
 # robost-prime-numbers
+was told to reply within 24 hours, passed the test
 codechallengethatIpassedforacompanyin2018
 
 Challenge:
