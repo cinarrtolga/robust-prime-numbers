@@ -95,18 +95,7 @@ namespace RBN
         } 
         public static void primeListContains(int x, int z) //to recursively check the numbers to the right
         {
-            for (int y = 1; y < (z-1); y++)
-            {
-                if (primeList.Contains(Int32.Parse(amountOfRightMostDigits(x, y))))
-                {
-
-                }
-                else
-                {
-                    return;
-                }
-
-            }
+         
             if (primeList.Contains(Int32.Parse(amountOfRightMostDigits(x, (z-1)))))
             {
                 rpnList.Add(x);
