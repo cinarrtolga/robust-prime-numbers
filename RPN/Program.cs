@@ -47,7 +47,6 @@ namespace RBN
         }
         private static void checkSubsequent(int x) //finds the digit length and passes it to primeListContains
         {
-
             //this does all the if statements below but I put it into a far loop instead
             for (int i = 2; i < 13; i++)
             {
@@ -56,18 +55,29 @@ namespace RBN
                     primeListContains(x, i);
                 }
             }
-
-        } 
+        }
         public static void primeListContains(int x, int z) //to recursively check the numbers to the right
         {
-          if (primeList.Contains(Int32.Parse(amountOfRightMostDigits(x, (z-1)))))
+            for (int y = 1; y < (z - 1); y++)
+            {
+                if (primeList.Contains(Int32.Parse(amountOfRightMostDigits(x, y))))
+                {
+
+                }
+                else
+                {
+                    return;
+                }
+
+            }
+            if (primeList.Contains(Int32.Parse(amountOfRightMostDigits(x, (z - 1)))))
             {
                 rpnList.Add(x);
                 Console.WriteLine(x);
             }
 
         }
-        
+
         public static void findPrimes(long maxNumber) //find all the primes
         {
             //add all the single digit primes first
@@ -82,7 +92,7 @@ namespace RBN
             {
                 prime[x] = true;
             }
-            
+
             for (int y = 2; y < sqrt; y++) //make all values which are multiples false, also < sqrt to speed up algorithm
 
             {
@@ -94,7 +104,7 @@ namespace RBN
                     }
                 }
             }
-            for (int x = 2; x < maxNumber; x++) //add each number to a list of primes and then check if the trailiing digits are primes i.e RBN
+            for (int x = 2; x < maxNumber; x++) //add each number to a list of primes and then check if the trailiing digits are primes i.e RPN
             {
                 bool result = x.ToString().Contains(0.ToString());
                 if ((prime[x] == true) && (!result))
@@ -109,4 +119,3 @@ namespace RBN
 
 
 }
-
