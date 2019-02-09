@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -48,55 +48,63 @@ namespace RBN
         private static void checkSubsequent(int x) //finds the digit length and passes it to primeListContains
         {
 
-            if (x.ToString().Length == 2)
+            //this does all the if statements below but I put it into a far loop instead
+            for (int i = 2; i < 13; i++)
             {
-                primeListContains(x, 2);
+                if (x.ToString().Length == i)
+                {
+                    primeListContains(x, i);
+                }
             }
-            if (x.ToString().Length == 3)
-            {
-                primeListContains(x, 3);
-            }
-            if (x.ToString().Length == 4)
-            {
-                primeListContains(x, 4);
-            }
-            if (x.ToString().Length == 5)
-            {
-                primeListContains(x, 5);
-            }
-            if (x.ToString().Length == 6)
-            {
-                primeListContains(x, 6);
-            }
-            if (x.ToString().Length == 7)
-            {
-                primeListContains(x, 7);
-            }
-            if (x.ToString().Length == 8)
-            {
-                primeListContains(x, 8);
-            }
-            if (x.ToString().Length == 9)
-            {
-                primeListContains(x, 9);
-            }
-            if (x.ToString().Length == 10)
-            {
-                primeListContains(x, 10);
-            }
-            if (x.ToString().Length == 11)
-            {
-                primeListContains(x, 11);
-            }
-            if (x.ToString().Length == 12)
-            {
-                primeListContains(x, 12);
-            }
+
+            //if (x.ToString().Length == 2)
+            //{
+            //    primeListContains(x, 2);
+            //}
+            //if (x.ToString().Length == 3)
+            //{
+            //    primeListContains(x, 3);
+            //}
+            //if (x.ToString().Length == 4)
+            //{
+            //    primeListContains(x, 4);
+            //}
+            //if (x.ToString().Length == 5)
+            //{
+            //    primeListContains(x, 5);
+            //}
+            //if (x.ToString().Length == 6)
+            //{
+            //    primeListContains(x, 6);
+            //}
+            //if (x.ToString().Length == 7)
+            //{
+            //    primeListContains(x, 7);
+            //}
+            //if (x.ToString().Length == 8)
+            //{
+            //    primeListContains(x, 8);
+            //}
+            //if (x.ToString().Length == 9)
+            //{
+            //    primeListContains(x, 9);
+            //}
+            //if (x.ToString().Length == 10)
+            //{
+            //    primeListContains(x, 10);
+            //}
+            //if (x.ToString().Length == 11)
+            //{
+            //    primeListContains(x, 11);
+            //}
+            //if (x.ToString().Length == 12)
+            //{
+            //    primeListContains(x, 12);
+            //}
         } 
         public static void primeListContains(int x, int z) //to recursively check the numbers to the right
         {
-         
-            if (primeList.Contains(Int32.Parse(amountOfRightMostDigits(x, (z-1)))))
+          if (primeList.Contains(Int32.Parse(amountOfRightMostDigits(x, (z-1)))))
             {
                 rpnList.Add(x);
                 Console.WriteLine(x);
