@@ -57,50 +57,6 @@ namespace RBN
                 }
             }
 
-            //if (x.ToString().Length == 2)
-            //{
-            //    primeListContains(x, 2);
-            //}
-            //if (x.ToString().Length == 3)
-            //{
-            //    primeListContains(x, 3);
-            //}
-            //if (x.ToString().Length == 4)
-            //{
-            //    primeListContains(x, 4);
-            //}
-            //if (x.ToString().Length == 5)
-            //{
-            //    primeListContains(x, 5);
-            //}
-            //if (x.ToString().Length == 6)
-            //{
-            //    primeListContains(x, 6);
-            //}
-            //if (x.ToString().Length == 7)
-            //{
-            //    primeListContains(x, 7);
-            //}
-            //if (x.ToString().Length == 8)
-            //{
-            //    primeListContains(x, 8);
-            //}
-            //if (x.ToString().Length == 9)
-            //{
-            //    primeListContains(x, 9);
-            //}
-            //if (x.ToString().Length == 10)
-            //{
-            //    primeListContains(x, 10);
-            //}
-            //if (x.ToString().Length == 11)
-            //{
-            //    primeListContains(x, 11);
-            //}
-            //if (x.ToString().Length == 12)
-            //{
-            //    primeListContains(x, 12);
-            //}
         } 
         public static void primeListContains(int x, int z) //to recursively check the numbers to the right
         {
